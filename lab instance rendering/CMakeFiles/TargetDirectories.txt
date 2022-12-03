@@ -1,0 +1,3 @@
+/Users/hanktsai/Documents/CSC471/lab instance rendering/CMakeFiles/instance_rendering.dir
+/Users/hanktsai/Documents/CSC471/lab instance rendering/CMakeFiles/ALL_BUILD.dir
+/Users/hanktsai/Documents/CSC471/lab instance rendering/CMakeFiles/ZERO_CHECK.dir

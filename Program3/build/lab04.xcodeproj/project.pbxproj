@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8449AB7DB7CF45C5804EBA93 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA09B8E835BB45AB9185A6B3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				954A4DE7FA53114CDA796FBC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				33525480F1764888A18CC072 /* PBXTargetDependency */,
+				4F409C9CB94841AB87B34FA8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C67D7A931C164E1DBCC6D13B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5AF9E50B39F14310802C9456 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2DBAFD3311C6B8BE7E3E3A4C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		07BADCBA53D946C988661DFA /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E174A3448114841B76666FB /* Program.cpp */; };
+		4256040F91904FEFB7DBD482 /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB4367CD87004B80B90DF8C4 /* WindowManager.cpp */; };
+		4C61CB8A72A1462C9DAFAED1 /* GLSL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAA1ED6C4009435AA641FBC2 /* GLSL.cpp */; };
+		4E05B0C2D5424C4DA63749D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7CDE41B214BD8BF3AA53F /* main.cpp */; };
+		C9CDA015489B43A0A019FEEE /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = F0371EB24C754AE48255A689 /* glad.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5663F13D52C34D64A9747045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B6F2F98A6A498CB36D8396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67D7A931C164E1DBCC6D13B;
+			remoteInfo = ZERO_CHECK;
+		};
+		6EC8743597914E11AE23560A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B6F2F98A6A498CB36D8396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBCD13907244CA28574AE25;
+			remoteInfo = lab04;
+		};
+		A67936424CE44FDEB889A641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B6F2F98A6A498CB36D8396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67D7A931C164E1DBCC6D13B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111C4F22815845408A1BAEFE /* packing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = packing.h; path = ext/glm/include/glm/simd/packing.h; sourceTree = SOURCE_ROOT; };
+		1B4ECA6E31FD43759B50DEF3 /* GLSL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSL.h; path = src/GLSL.h; sourceTree = SOURCE_ROOT; };
+		1C1CC94006E345FA81DBEC48 /* exponential.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exponential.h; path = ext/glm/include/glm/simd/exponential.h; sourceTree = SOURCE_ROOT; };
+		322E603752C2440B827B6E03 /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = ext/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		3E749A10E5F54555918E56C9 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3EFB449885B34EB3AC3A3CD5 /* matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix.h; path = ext/glm/include/glm/simd/matrix.h; sourceTree = SOURCE_ROOT; };
+		41FDCBC3984F4C11B96E2384 /* lab04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = lab04; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AB681E9D654FC0A29348D0 /* geometric.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geometric.h; path = ext/glm/include/glm/simd/geometric.h; sourceTree = SOURCE_ROOT; };
+		52201407934F467FAB625E86 /* khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = ext/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+		6A1C02BC3D8D4719AE5725F2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6B8E55BE679844388C481E12 /* vector_relational.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector_relational.h; path = ext/glm/include/glm/simd/vector_relational.h; sourceTree = SOURCE_ROOT; };
+		7E174A3448114841B76666FB /* Program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Program.cpp; path = src/Program.cpp; sourceTree = SOURCE_ROOT; };
+		822F06CFEB6546D9A9C00CEC /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = ext/glad/include/glad/glad.h; sourceTree = SOURCE_ROOT; };
+		868CD80B375B47B88238C64A /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = ext/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		885B1EE5C7634285BABB6AD2 /* Program.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Program.h; path = src/Program.h; sourceTree = SOURCE_ROOT; };
+		8C6DA8C8F63C402499EA7506 /* WindowManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WindowManager.h; path = src/WindowManager.h; sourceTree = SOURCE_ROOT; };
+		9ED7CDE41B214BD8BF3AA53F /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		A2A23D6AB9024823B5B20A25 /* integer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = integer.h; path = ext/glm/include/glm/simd/integer.h; sourceTree = SOURCE_ROOT; };
+		A2A9454B3CA344BAACBE75F6 /* neon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = neon.h; path = ext/glm/include/glm/simd/neon.h; sourceTree = SOURCE_ROOT; };
+		AAA1ED6C4009435AA641FBC2 /* GLSL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSL.cpp; path = src/GLSL.cpp; sourceTree = SOURCE_ROOT; };
+		AB4367CD87004B80B90DF8C4 /* WindowManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WindowManager.cpp; path = src/WindowManager.cpp; sourceTree = SOURCE_ROOT; };
+		CFCB2F5408E44921AD637FC5 /* platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = ext/glm/include/glm/simd/platform.h; sourceTree = SOURCE_ROOT; };
+		D12EA469859E48E894958229 /* shader_vertex.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_vertex.glsl; path = resources/shader_vertex.glsl; sourceTree = SOURCE_ROOT; };
+		EAD7E1E78A1E4D358CFCFC79 /* trigonometric.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trigonometric.h; path = ext/glm/include/glm/simd/trigonometric.h; sourceTree = SOURCE_ROOT; };
+		F0371EB24C754AE48255A689 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = ext/glad/src/glad.c; sourceTree = SOURCE_ROOT; };
+		FEB31B223EF24167869C6AD2 /* shader_fragment.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_fragment.glsl; path = resources/shader_fragment.glsl; sourceTree = SOURCE_ROOT; };
+		FECE0E37D6A14F36A84814CC /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = ext/glm/include/glm/simd/common.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05509BB84C9940B4ACFE7456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C3AC86FDE24C77BA04DA82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48DFBC50BCBA45C39EFB0E38 = {
+			isa = PBXGroup;
+			children = (
+				78F5B7B66E7C478CA91A7969 /* lab04 */,
+				CFFD04E0BA1A4C2FB452B4CD /* ALL_BUILD */,
+				FDAFF72C77DD4062902DBA44 /* Products */,
+				29C3AC86FDE24C77BA04DA82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78F5B7B66E7C478CA91A7969 /* lab04 */ = {
+			isa = PBXGroup;
+			children = (
+				D158CA783A6C4B56860A67CF /* Source Files */,
+				BFCBDF06C9B149DDBDA071AB /* Header Files */,
+				3E749A10E5F54555918E56C9 /* CMakeLists.txt */,
+				FEB31B223EF24167869C6AD2 /* shader_fragment.glsl */,
+				D12EA469859E48E894958229 /* shader_vertex.glsl */,
+			);
+			name = lab04;
+			sourceTree = "<group>";
+		};
+		822A833B8C0E4058996D611E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BFCBDF06C9B149DDBDA071AB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				52201407934F467FAB625E86 /* khrplatform.h */,
+				822F06CFEB6546D9A9C00CEC /* glad.h */,
+				322E603752C2440B827B6E03 /* glfw3.h */,
+				868CD80B375B47B88238C64A /* glfw3native.h */,
+				FECE0E37D6A14F36A84814CC /* common.h */,
+				1C1CC94006E345FA81DBEC48 /* exponential.h */,
+				48AB681E9D654FC0A29348D0 /* geometric.h */,
+				A2A23D6AB9024823B5B20A25 /* integer.h */,
+				3EFB449885B34EB3AC3A3CD5 /* matrix.h */,
+				A2A9454B3CA344BAACBE75F6 /* neon.h */,
+				111C4F22815845408A1BAEFE /* packing.h */,
+				CFCB2F5408E44921AD637FC5 /* platform.h */,
+				EAD7E1E78A1E4D358CFCFC79 /* trigonometric.h */,
+				6B8E55BE679844388C481E12 /* vector_relational.h */,
+				1B4ECA6E31FD43759B50DEF3 /* GLSL.h */,
+				885B1EE5C7634285BABB6AD2 /* Program.h */,
+				8C6DA8C8F63C402499EA7506 /* WindowManager.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CFFD04E0BA1A4C2FB452B4CD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				822A833B8C0E4058996D611E /* CMake Rules */,
+				6A1C02BC3D8D4719AE5725F2 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D158CA783A6C4B56860A67CF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0371EB24C754AE48255A689 /* glad.c */,
+				9ED7CDE41B214BD8BF3AA53F /* main.cpp */,
+				AAA1ED6C4009435AA641FBC2 /* GLSL.cpp */,
+				7E174A3448114841B76666FB /* Program.cpp */,
+				AB4367CD87004B80B90DF8C4 /* WindowManager.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FDAFF72C77DD4062902DBA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41FDCBC3984F4C11B96E2384 /* lab04 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EBCD13907244CA28574AE25 /* lab04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7492AE7844C84AED8CC29631 /* Build configuration list for PBXNativeTarget "lab04" */;
+			buildPhases = (
+				6D0AD0F5056E4D0E8DEE6A54 /* Sources */,
+				05509BB84C9940B4ACFE7456 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E57D6A7B05040918F578082 /* PBXTargetDependency */,
+			);
+			name = lab04;
+			productName = lab04;
+			productReference = 41FDCBC3984F4C11B96E2384 /* lab04 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B6F2F98A6A498CB36D8396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1400;
+			};
+			buildConfigurationList = 2828FBCD47F24D42AB031A26 /* Build configuration list for PBXProject "lab04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48DFBC50BCBA45C39EFB0E38;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				8449AB7DB7CF45C5804EBA93 /* ALL_BUILD */,
+				C67D7A931C164E1DBCC6D13B /* ZERO_CHECK */,
+				6EBCD13907244CA28574AE25 /* lab04 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DBAFD3311C6B8BE7E3E3A4C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				"/Users/hanktsai/Documents/CSC471/lab anim/build/CMakeFiles/ZERO_CHECK",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  make -f /Users/hanktsai/Documents/CSC471/lab\\ anim/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  make -f /Users/hanktsai/Documents/CSC471/lab\\ anim/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  make -f /Users/hanktsai/Documents/CSC471/lab\\ anim/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  make -f /Users/hanktsai/Documents/CSC471/lab\\ anim/build/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		954A4DE7FA53114CDA796FBC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				"/Users/hanktsai/Documents/CSC471/lab anim/build/CMakeFiles/ALL_BUILD",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd \"/Users/hanktsai/Documents/CSC471/lab anim/build\"\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0AD0F5056E4D0E8DEE6A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CDA015489B43A0A019FEEE /* glad.c in Sources */,
+				4C61CB8A72A1462C9DAFAED1 /* GLSL.cpp in Sources */,
+				07BADCBA53D946C988661DFA /* Program.cpp in Sources */,
+				4256040F91904FEFB7DBD482 /* WindowManager.cpp in Sources */,
+				4E05B0C2D5424C4DA63749D7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E57D6A7B05040918F578082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67D7A931C164E1DBCC6D13B /* ZERO_CHECK */;
+			targetProxy = 5663F13D52C34D64A9747045 /* PBXContainerItemProxy */;
+		};
+		33525480F1764888A18CC072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBCD13907244CA28574AE25 /* lab04 */;
+			targetProxy = 6EC8743597914E11AE23560A /* PBXContainerItemProxy */;
+		};
+		4F409C9CB94841AB87B34FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67D7A931C164E1DBCC6D13B /* ZERO_CHECK */;
+			targetProxy = A67936424CE44FDEB889A641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A54492175FC484596DFB2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build/build";
+			};
+			name = Release;
+		};
+		2E182731DD4943FE89484697 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext\"",
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext/glad/include\"",
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/opt/homebrew/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		3A7EC1B523CB4C699AA6A15A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		41FD4ECD6C874C20B6B7CB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		69219055CFA84B7ABAB1ECFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		76029D927B4547F485E78B29 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		789C4BF1B6D842D783AA4609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext\"",
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext/glad/include\"",
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/opt/homebrew/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		821A9C57950447919851F764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext\"",
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext/glad/include\"",
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    $(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/opt/homebrew/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		A231BC89E65E4CD1A32C9B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		A2C97A28CCA4448EACC62ACB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		AAF0B036860E4E3FA63F7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		BEE5830890724C01A7EBB067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build/build";
+			};
+			name = Debug;
+		};
+		D515D60A6C014548A9ABCCAE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext\"",
+					"\"/Users/hanktsai/Documents/CSC471/lab anim/ext/glad/include\"",
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/opt/homebrew/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab04;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/opt/homebrew/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		E8474473ABCA425E84E612E0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		ED9FE1CE233F41DB85EA07DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		FCFAB32808294235B93C85EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab anim/build/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2828FBCD47F24D42AB031A26 /* Build configuration list for PBXProject "lab04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE5830890724C01A7EBB067 /* Debug */,
+				1A54492175FC484596DFB2C9 /* Release */,
+				FCFAB32808294235B93C85EF /* MinSizeRel */,
+				A2C97A28CCA4448EACC62ACB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5AF9E50B39F14310802C9456 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF0B036860E4E3FA63F7ABC /* Debug */,
+				A231BC89E65E4CD1A32C9B1D /* Release */,
+				3A7EC1B523CB4C699AA6A15A /* MinSizeRel */,
+				76029D927B4547F485E78B29 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7492AE7844C84AED8CC29631 /* Build configuration list for PBXNativeTarget "lab04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821A9C57950447919851F764 /* Debug */,
+				789C4BF1B6D842D783AA4609 /* Release */,
+				D515D60A6C014548A9ABCCAE /* MinSizeRel */,
+				2E182731DD4943FE89484697 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA09B8E835BB45AB9185A6B3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69219055CFA84B7ABAB1ECFB /* Debug */,
+				41FD4ECD6C874C20B6B7CB1A /* Release */,
+				E8474473ABCA425E84E612E0 /* MinSizeRel */,
+				ED9FE1CE233F41DB85EA07DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B6F2F98A6A498CB36D8396 /* Project object */;
+}

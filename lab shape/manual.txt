@@ -1,0 +1,11 @@
+
+
+CSC471 Hank Tsai 
+Midterm 1 
+
+T/G for left arm waving
+Y/H for right arm waving
+U/J for left leg kicking
+I/K for right leg kicking 
+
+C for stoping any movement 

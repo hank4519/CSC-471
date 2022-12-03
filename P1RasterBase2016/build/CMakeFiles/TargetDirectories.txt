@@ -1,0 +1,3 @@
+/Users/hanktsai/Documents/CSC471/P1RasterBase2016/build/CMakeFiles/raster.dir
+/Users/hanktsai/Documents/CSC471/P1RasterBase2016/build/CMakeFiles/ALL_BUILD.dir
+/Users/hanktsai/Documents/CSC471/P1RasterBase2016/build/CMakeFiles/ZERO_CHECK.dir

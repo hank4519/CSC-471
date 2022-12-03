@@ -1,0 +1,3 @@
+/Users/hanktsai/Documents/CSC471/lab anim/build/CMakeFiles/lab04.dir
+/Users/hanktsai/Documents/CSC471/lab anim/build/CMakeFiles/ALL_BUILD.dir
+/Users/hanktsai/Documents/CSC471/lab anim/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+/Users/hanktsai/Documents/CSC471/lab going3D/build/CMakeFiles/lab03.dir
+/Users/hanktsai/Documents/CSC471/lab going3D/build/CMakeFiles/ALL_BUILD.dir
+/Users/hanktsai/Documents/CSC471/lab going3D/build/CMakeFiles/ZERO_CHECK.dir

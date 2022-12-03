@@ -1,0 +1,45 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "44cc84575b79c7c5ec38530cdc4cf0d89c9172f4454e1853f188f2d4ed8af4d5"
+    }
+  ],
+  "containerPath" : "/Users/hanktsai/Documents/CSC471/lab going3D/build/lab03.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/hanktsai/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/hanktsai/Library/Developer/Xcode/DerivedData/lab03-bdxmivvvrpvtbbdweltlvuesnxpd/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/hanktsai/Library/Developer/Xcode/DerivedData/lab03-bdxmivvvrpvtbbdweltlvuesnxpd/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
