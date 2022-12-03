@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5D77347B406340FC9EE1D8ED /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C5C68ABB11E84A3894FB3B1C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3694B09C59E532EFEEC5246E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7D487C614E3A4AAF98A1C00B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02DC7EC3D7644D95A34D5668 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				68F1AF8889E5739CE7C544FD /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F98E444006DA4F59B732AB91 /* PBXTargetDependency */,
+				F936FB907D1F46F79B87B1C5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06F413A4CDCB4ADC8F9A52AA /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/common.h */ = {isa = PBXBuildFile; fileRef = 195BED98F0FE4987BF64858A /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/common.h */; };
+		214F959FA7F44353B80597D5 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 30DA73FEBB3542BFA488603E /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/main.cpp */; };
+		2792A6903E4844B7A5E2CEE5 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/geometric.h */ = {isa = PBXBuildFile; fileRef = 79DE113CB5D445E8A4451143 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/geometric.h */; };
+		3993838522694C2684E3A9AC /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/src/glad.c */ = {isa = PBXBuildFile; fileRef = EDDF83C575AB4467874B431D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/src/glad.c */; };
+		42512DD2E3A647389368F25A /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/integer.h */ = {isa = PBXBuildFile; fileRef = FB63F6446D004AAD94FDF7D9 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/integer.h */; };
+		42A405EDF7A1493EA435FE61 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/platform.h */ = {isa = PBXBuildFile; fileRef = 015E2183EF214753A7A9A8EF /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/platform.h */; };
+		4ABF734AEF3E49F1BE69BEE4 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.h */ = {isa = PBXBuildFile; fileRef = F9CA1EE692CD4A5380A2DAE0 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.h */; };
+		50F2B3E936234D05B7ED8358 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.h */ = {isa = PBXBuildFile; fileRef = 419FC31DA28B4211A3EA1491 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.h */; };
+		52621EA2885A4A3F9AB06813 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.cpp */ = {isa = PBXBuildFile; fileRef = 3198E80EBC6743E5B59C7F32 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.cpp */; };
+		56A1B1306D2145159A98C51C /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/vector_relational.h */ = {isa = PBXBuildFile; fileRef = D928D0F6E38245B080CD359B /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/vector_relational.h */; };
+		57534B4B1FFD4C17A03FE48C /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = C8D6BA0D416B456C9F61F9DB /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3native.h */; };
+		5EC23A45C2DC46C78F72FB72 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/packing.h */ = {isa = PBXBuildFile; fileRef = D906DE5041894A2FBB06B50A /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/packing.h */; };
+		615FD225C0394E32A961F95A /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.cpp */ = {isa = PBXBuildFile; fileRef = E5E895797B4C447592FBC478 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.cpp */; };
+		681872769C7B4E2B9105DBDB /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/trigonometric.h */ = {isa = PBXBuildFile; fileRef = AA4D88078B47419982BD2569 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/trigonometric.h */; };
+		6D6823BC080D45DE881D76D5 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/matrix.h */ = {isa = PBXBuildFile; fileRef = B5237CA4B0C545B084106B8D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/matrix.h */; };
+		6D8987B65D964EFB8C498D82 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.h */ = {isa = PBXBuildFile; fileRef = 3B52B3CB4E8148DBBC2A3A22 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.h */; };
+		6FDE5A48837743699562208F /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_fragment.glsl */ = {isa = PBXBuildFile; fileRef = D9098E24634F4F67964A6458 /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_fragment.glsl */; };
+		747B88F248AB4647B0625CC8 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/KHR/khrplatform.h */ = {isa = PBXBuildFile; fileRef = D839CD547CEF48B297B5AD1D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/KHR/khrplatform.h */; };
+		83D4C779D4794A86BF006C3B /* /Users/hanktsai/Documents/CSC471/lab2 base code/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 06F8A64693284F8DA6C49C26 /* /Users/hanktsai/Documents/CSC471/lab2 base code/CMakeLists.txt */; };
+		9713A3BCD415433C8D29FE11 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/neon.h */ = {isa = PBXBuildFile; fileRef = E292B9958A2949898EC0E5D8 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/neon.h */; };
+		9EFFC86BFDAD4CEB9BD41443 /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_vertex.glsl */ = {isa = PBXBuildFile; fileRef = 7EAC64B607CD4BCCB391CECD /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_vertex.glsl */; };
+		A0A073FCED094187AEE3A850 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/glad/glad.h */ = {isa = PBXBuildFile; fileRef = B0113E69ECC7490B9F119E62 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/glad/glad.h */; };
+		AACB4B17A70745F590D30ADE /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 8FC7CE5D8F4846E199B929DF /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3.h */; };
+		D54655BE9696487AA65C9FAE /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.cpp */ = {isa = PBXBuildFile; fileRef = 7A52A9E3DB0C4746A4DA332E /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.cpp */; };
+		F7B914F0B6E543A4B5AAA46C /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/exponential.h */ = {isa = PBXBuildFile; fileRef = C2D74E115F6D4754890F4F6E /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/exponential.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		07486B093CBC49028DE9CD24 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		48C5B3E819ED4037823A8249 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5E486531C7514BA7B3FEB3E6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		777C3D099B084133B01F5DB4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		00564F0825394093B7EFB9F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03D5D61E14249D280AE9953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D77347B406340FC9EE1D8ED;
+			remoteInfo = ZERO_CHECK;
+		};
+		BEDFDF99388440C9A0F7D707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03D5D61E14249D280AE9953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CE95FCC23A4345AD4FB145;
+			remoteInfo = lab02;
+		};
+		D36432C44C284D019AAFB32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03D5D61E14249D280AE9953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D77347B406340FC9EE1D8ED;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015E2183EF214753A7A9A8EF /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = ext/glm/include/glm/simd/platform.h; sourceTree = SOURCE_ROOT; };
+		06F8A64693284F8DA6C49C26 /* /Users/hanktsai/Documents/CSC471/lab2 base code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		195BED98F0FE4987BF64858A /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = ext/glm/include/glm/simd/common.h; sourceTree = SOURCE_ROOT; };
+		30DA73FEBB3542BFA488603E /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		3198E80EBC6743E5B59C7F32 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WindowManager.cpp; path = src/WindowManager.cpp; sourceTree = SOURCE_ROOT; };
+		3B52B3CB4E8148DBBC2A3A22 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WindowManager.h; path = src/WindowManager.h; sourceTree = SOURCE_ROOT; };
+		419FC31DA28B4211A3EA1491 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSL.h; path = src/GLSL.h; sourceTree = SOURCE_ROOT; };
+		516CCACD0D6C485B8AB63C67 /* lab02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = lab02; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DE113CB5D445E8A4451143 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/geometric.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geometric.h; path = ext/glm/include/glm/simd/geometric.h; sourceTree = SOURCE_ROOT; };
+		7A52A9E3DB0C4746A4DA332E /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Program.cpp; path = src/Program.cpp; sourceTree = SOURCE_ROOT; };
+		7EAC64B607CD4BCCB391CECD /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_vertex.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_vertex.glsl; path = resources/shader_vertex.glsl; sourceTree = SOURCE_ROOT; };
+		8FC7CE5D8F4846E199B929DF /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = ext/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		AA4D88078B47419982BD2569 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/trigonometric.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trigonometric.h; path = ext/glm/include/glm/simd/trigonometric.h; sourceTree = SOURCE_ROOT; };
+		B0113E69ECC7490B9F119E62 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/glad/glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = ext/glad/include/glad/glad.h; sourceTree = SOURCE_ROOT; };
+		B5237CA4B0C545B084106B8D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix.h; path = ext/glm/include/glm/simd/matrix.h; sourceTree = SOURCE_ROOT; };
+		BFDD75E729AB45C6A2A02567 /* /Users/hanktsai/Documents/CSC471/lab2 base code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C2D74E115F6D4754890F4F6E /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/exponential.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exponential.h; path = ext/glm/include/glm/simd/exponential.h; sourceTree = SOURCE_ROOT; };
+		C8D6BA0D416B456C9F61F9DB /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = ext/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		D839CD547CEF48B297B5AD1D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/KHR/khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = ext/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+		D906DE5041894A2FBB06B50A /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/packing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = packing.h; path = ext/glm/include/glm/simd/packing.h; sourceTree = SOURCE_ROOT; };
+		D9098E24634F4F67964A6458 /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_fragment.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shader_fragment.glsl; path = resources/shader_fragment.glsl; sourceTree = SOURCE_ROOT; };
+		D928D0F6E38245B080CD359B /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/vector_relational.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector_relational.h; path = ext/glm/include/glm/simd/vector_relational.h; sourceTree = SOURCE_ROOT; };
+		E292B9958A2949898EC0E5D8 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/neon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = neon.h; path = ext/glm/include/glm/simd/neon.h; sourceTree = SOURCE_ROOT; };
+		E5E895797B4C447592FBC478 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSL.cpp; path = src/GLSL.cpp; sourceTree = SOURCE_ROOT; };
+		EDDF83C575AB4467874B431D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/src/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = ext/glad/src/glad.c; sourceTree = SOURCE_ROOT; };
+		F9CA1EE692CD4A5380A2DAE0 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Program.h; path = src/Program.h; sourceTree = SOURCE_ROOT; };
+		FB63F6446D004AAD94FDF7D9 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/integer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = integer.h; path = ext/glm/include/glm/simd/integer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACB4D3631A946658FB15949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CAE359523174C2EA12FB210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		408DA332642E48718EA8117E = {
+			isa = PBXGroup;
+			children = (
+				CADC0A034B4A4D75B9B54D8D /* lab02 */,
+				B51C4EEF7FB8463DA8F51B38 /* ALL_BUILD */,
+				A26C01EDCE0B455B9467FC10 /* Products */,
+				0CAE359523174C2EA12FB210 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BAB3373E8044F1592722968 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D839CD547CEF48B297B5AD1D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/KHR/khrplatform.h */,
+				B0113E69ECC7490B9F119E62 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include/glad/glad.h */,
+				8FC7CE5D8F4846E199B929DF /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3.h */,
+				C8D6BA0D416B456C9F61F9DB /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glfw/include/GLFW/glfw3native.h */,
+				195BED98F0FE4987BF64858A /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/common.h */,
+				C2D74E115F6D4754890F4F6E /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/exponential.h */,
+				79DE113CB5D445E8A4451143 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/geometric.h */,
+				FB63F6446D004AAD94FDF7D9 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/integer.h */,
+				B5237CA4B0C545B084106B8D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/matrix.h */,
+				E292B9958A2949898EC0E5D8 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/neon.h */,
+				D906DE5041894A2FBB06B50A /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/packing.h */,
+				015E2183EF214753A7A9A8EF /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/platform.h */,
+				AA4D88078B47419982BD2569 /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/trigonometric.h */,
+				D928D0F6E38245B080CD359B /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glm/include/glm/simd/vector_relational.h */,
+				419FC31DA28B4211A3EA1491 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.h */,
+				F9CA1EE692CD4A5380A2DAE0 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.h */,
+				3B52B3CB4E8148DBBC2A3A22 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7359B15854C641BFB5725871 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF83C575AB4467874B431D /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/src/glad.c */,
+				E5E895797B4C447592FBC478 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.cpp */,
+				7A52A9E3DB0C4746A4DA332E /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.cpp */,
+				3198E80EBC6743E5B59C7F32 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.cpp */,
+				30DA73FEBB3542BFA488603E /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		79CE5E9C5DA7449BA2CBFEE5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A26C01EDCE0B455B9467FC10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516CCACD0D6C485B8AB63C67 /* lab02 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51C4EEF7FB8463DA8F51B38 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				79CE5E9C5DA7449BA2CBFEE5 /* CMake Rules */,
+				BFDD75E729AB45C6A2A02567 /* /Users/hanktsai/Documents/CSC471/lab2 base code/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CADC0A034B4A4D75B9B54D8D /* lab02 */ = {
+			isa = PBXGroup;
+			children = (
+				7359B15854C641BFB5725871 /* Source Files */,
+				6BAB3373E8044F1592722968 /* Header Files */,
+				06F8A64693284F8DA6C49C26 /* /Users/hanktsai/Documents/CSC471/lab2 base code/CMakeLists.txt */,
+				D9098E24634F4F67964A6458 /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_fragment.glsl */,
+				7EAC64B607CD4BCCB391CECD /* /Users/hanktsai/Documents/CSC471/lab2 base code/resources/shader_vertex.glsl */,
+			);
+			name = lab02;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CE95FCC23A4345AD4FB145 /* lab02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D7A16CAA0E4435827261C7 /* Build configuration list for PBXNativeTarget "lab02" */;
+			buildPhases = (
+				8160B4CD15F741F08879542B /* Sources */,
+				4ACB4D3631A946658FB15949 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D981E62105A948DE83A20B0F /* PBXTargetDependency */,
+			);
+			name = lab02;
+			productName = lab02;
+			productReference = 516CCACD0D6C485B8AB63C67 /* lab02 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03D5D61E14249D280AE9953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1400;
+			};
+			buildConfigurationList = 4E92CFEE0A9741859CF3DDA9 /* Build configuration list for PBXProject "lab02" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5E486531C7514BA7B3FEB3E6 /* Debug */,
+				777C3D099B084133B01F5DB4 /* Release */,
+				48C5B3E819ED4037823A8249 /* MinSizeRel */,
+				07486B093CBC49028DE9CD24 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 408DA332642E48718EA8117E;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				7D487C614E3A4AAF98A1C00B /* ALL_BUILD */,
+				5D77347B406340FC9EE1D8ED /* ZERO_CHECK */,
+				E3CE95FCC23A4345AD4FB145 /* lab02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3694B09C59E532EFEEC5246E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/hanktsai/Documents/CSC471/lab2 base code/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  make -f /Users/hanktsai/Documents/CSC471/lab2\\ base\\ code/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  make -f /Users/hanktsai/Documents/CSC471/lab2\\ base\\ code/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  make -f /Users/hanktsai/Documents/CSC471/lab2\\ base\\ code/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  make -f /Users/hanktsai/Documents/CSC471/lab2\\ base\\ code/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		68F1AF8889E5739CE7C544FD /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/hanktsai/Documents/CSC471/lab2 base code/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/hanktsai/Documents/CSC471/lab2 base code/build\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8160B4CD15F741F08879542B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3993838522694C2684E3A9AC /* /Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/src/glad.c */,
+				615FD225C0394E32A961F95A /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/GLSL.cpp */,
+				D54655BE9696487AA65C9FAE /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/Program.cpp */,
+				52621EA2885A4A3F9AB06813 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/WindowManager.cpp */,
+				214F959FA7F44353B80597D5 /* /Users/hanktsai/Documents/CSC471/lab2 base code/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D981E62105A948DE83A20B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D77347B406340FC9EE1D8ED /* ZERO_CHECK */;
+			targetProxy = 00564F0825394093B7EFB9F0 /* PBXContainerItemProxy */;
+		};
+		F936FB907D1F46F79B87B1C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D77347B406340FC9EE1D8ED /* ZERO_CHECK */;
+			targetProxy = D36432C44C284D019AAFB32F /* PBXContainerItemProxy */;
+		};
+		F98E444006DA4F59B732AB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CE95FCC23A4345AD4FB145 /* lab02 */;
+			targetProxy = BEDFDF99388440C9A0F7D707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		092B9196AEF44462B7CFBFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build/build";
+			};
+			name = Debug;
+		};
+		180BE5FABB604971A24346F7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext\"","\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include\"",/opt/homebrew/lib,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libglfw.3.3.dylib,"-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1957B321E48B4988897EA648 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2286B0F980464D7688534330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		30258FD809AA4E11B7007D89 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		411B36B78CF6425DBA7AB01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		45215022475C4DC9A3AD648E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build/build";
+			};
+			name = Release;
+		};
+		453B517B3D354C11AA289C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5A444729A139433BA0BE80D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB7F182223E0486D9DF5C23D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B547194E7125437B90FA3217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext\"","\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include\"",/opt/homebrew/lib,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libglfw.3.3.dylib,"-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B75CB1658A7145E7BD4D99E9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build/build";
+			};
+			name = MinSizeRel;
+		};
+		BADF6D82B878453297CA8388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext\"","\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include\"",/opt/homebrew/lib,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libglfw.3.3.dylib,"-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CA119118C0114170809566E3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CA53410A12B8456B9ECFDA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D6B92CCE3B5E48BE94AF2C4D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext\"","\"/Users/hanktsai/Documents/CSC471/lab2 base code/ext/glad/include\"",/opt/homebrew/lib,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libglfw.3.3.dylib,"-framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lab02;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/hanktsai/Documents/CSC471/lab2 base code/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02DC7EC3D7644D95A34D5668 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411B36B78CF6425DBA7AB01B /* Debug */,
+				453B517B3D354C11AA289C3D /* Release */,
+				CA119118C0114170809566E3 /* MinSizeRel */,
+				5A444729A139433BA0BE80D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E92CFEE0A9741859CF3DDA9 /* Build configuration list for PBXProject "lab02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B9196AEF44462B7CFBFEE /* Debug */,
+				45215022475C4DC9A3AD648E /* Release */,
+				B75CB1658A7145E7BD4D99E9 /* MinSizeRel */,
+				AB7F182223E0486D9DF5C23D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96D7A16CAA0E4435827261C7 /* Build configuration list for PBXNativeTarget "lab02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADF6D82B878453297CA8388 /* Debug */,
+				B547194E7125437B90FA3217 /* Release */,
+				D6B92CCE3B5E48BE94AF2C4D /* MinSizeRel */,
+				180BE5FABB604971A24346F7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5C68ABB11E84A3894FB3B1C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA53410A12B8456B9ECFDA19 /* Debug */,
+				2286B0F980464D7688534330 /* Release */,
+				30258FD809AA4E11B7007D89 /* MinSizeRel */,
+				1957B321E48B4988897EA648 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F03D5D61E14249D280AE9953 /* Project object */;
+}
